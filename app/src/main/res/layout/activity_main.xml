@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,8 +12,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:scaleType="centerCrop"
         android:alpha="0.8"
+        android:scaleType="centerCrop"
         android:src="@mipmap/t4" />
 
     <TextView
@@ -25,12 +24,12 @@
         android:layout_centerHorizontal="true"
         android:textAllCaps="true"
         android:textColor="#FF0000"
-        android:textSize="22sp" />
+        android:textSize="@dimen/textdim22" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp">
+        android:layout_marginTop="@dimen/dim16">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -42,44 +41,42 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="Player1"
-                android:textAllCaps="true"
-                android:textSize="22sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/player1"
+                android:textSize="@dimen/textdim22" />
 
             <TextView
                 android:id="@+id/points_player1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="0"
-                android:textSize="18sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/zero"
+                android:textSize="@dimen/textdim18" />
 
 
             <TextView
                 android:id="@+id/game_player1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="0"
-                android:textSize="18sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/zero"
+                android:textSize="@dimen/textdim18" />
 
 
             <TextView
                 android:id="@+id/set_player1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="0"
-                android:textSize="18sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/zero"
+                android:textSize="@dimen/textdim18" />
 
             <Button
                 android:id="@+id/ip1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:onClick="increase_p1"
-                android:text="+" />
+                android:text="@string/plus" />
 
         </LinearLayout>
 
@@ -93,33 +90,30 @@
                 android:id="@+id/mainTimer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:textSize="22sp"
+                android:padding="@dimen/dim8"
+                android:textSize="@dimen/textdim22"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="Points"
-                android:textAllCaps="true"
-                android:textSize="18sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/points"
+                android:textSize="@dimen/textdim18" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="Game"
-                android:textAllCaps="true"
-                android:textSize="18sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/game"
+                android:textSize="@dimen/textdim18" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="Set"
-                android:textAllCaps="true"
-                android:textSize="18sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/set"
+                android:textSize="@dimen/textdim18" />
 
 
         </LinearLayout>
@@ -135,45 +129,42 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
-                android:padding="8dp"
-                android:text="Player 2"
-                android:textAllCaps="true"
-                android:textSize="22sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/player2"
+                android:textSize="@dimen/textdim22" />
 
             <TextView
                 android:id="@+id/points_player2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="0"
-                android:textSize="18sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/zero"
+                android:textSize="@dimen/textdim18" />
 
 
             <TextView
                 android:id="@+id/game_player2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="0"
-                android:textSize="18sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/zero"
+                android:textSize="@dimen/textdim18" />
 
 
             <TextView
                 android:id="@+id/set_player2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="0"
-                android:textSize="18sp" />
+                android:padding="@dimen/dim8"
+                android:text="@string/zero"
+                android:textSize="@dimen/textdim18" />
 
             <Button
                 android:id="@+id/ip2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:onClick="increase_p2"
-                android:text="+" />
+                android:text="@string/plus" />
 
         </LinearLayout>
     </LinearLayout>
@@ -206,7 +197,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp">
+        android:layout_marginBottom="@dimen/dim8">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -227,8 +218,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Player 1"
-                android:textAllCaps="true" />
+                android:text="@string/player1" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -238,19 +228,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Player 2"
-                android:textAllCaps="true" />
+                android:text="@string/player2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000"></LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="time"
-                android:textAllCaps="true" />
         </LinearLayout>
 
         <LinearLayout
@@ -268,7 +252,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="S1" />
+                android:text="@string/s1" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -280,7 +264,7 @@
                 android:id="@+id/p1s1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -291,18 +275,13 @@
                 android:id="@+id/p2s1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000"></LinearLayout>
 
-            <Chronometer
-                android:id="@+id/t1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -320,7 +299,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="S2" />
+                android:text="@string/s2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -331,7 +310,7 @@
                 android:id="@+id/p1s2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -342,18 +321,13 @@
                 android:id="@+id/p2s2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000"></LinearLayout>
 
-            <Chronometer
-                android:id="@+id/t2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -371,7 +345,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="S3" />
+                android:text="@string/s3" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -382,7 +356,7 @@
                 android:id="@+id/p1s3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -393,18 +367,13 @@
                 android:id="@+id/p2s3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000"></LinearLayout>
 
-            <Chronometer
-                android:id="@+id/t3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -422,7 +391,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="S4" />
+                android:text="@string/s4" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -433,7 +402,7 @@
                 android:id="@+id/p1s4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -444,18 +413,13 @@
                 android:id="@+id/p2s4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000"></LinearLayout>
 
-            <Chronometer
-                android:id="@+id/t4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -473,7 +437,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="S5" />
+                android:text="@string/s5" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -484,7 +448,7 @@
                 android:id="@+id/p1s5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -495,18 +459,13 @@
                 android:id="@+id/p2s5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-" />
+                android:text="@string/zero" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000"></LinearLayout>
 
-            <Chronometer
-                android:id="@+id/t5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>

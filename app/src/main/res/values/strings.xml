@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">TennisScoreKeeper</string>
+    <string name="player1">PLAYER 1</string>
+    <string name="player2">PLAYER 2</string>
+    <string name="points">POINTS</string>
+    <string name="game">GAME</string>
+    <string name="set">SET</string>
+    <string name="zero">0</string>
+    <string name="s1">SET 1</string>
+    <string name="s2">SET 2</string>
+    <string name="s3">SET 3</string>
+    <string name="s4">SET 4</string>
+    <string name="s5">SET 5</string>
+    <string name="plus">+</string>
 </resources>

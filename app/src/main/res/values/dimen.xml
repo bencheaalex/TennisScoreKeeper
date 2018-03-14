@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="textdim18">18sp</dimen>
+    <dimen name="textdim22">22sp</dimen>
+    <dimen name="dim16">16dp</dimen>
+    <dimen name="dim8">8dp</dimen>
+
+</resources>
